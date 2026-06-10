@@ -145,5 +145,6 @@ http.createServer((req, res) => {
     res.end(html);
 }).listen(3000, () => {
     console.log('Server running on port 3000');
+    console.log('CI/CD Test Success 🚀');
 });
 
